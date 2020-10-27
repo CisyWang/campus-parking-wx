@@ -74,3 +74,40 @@ $uni-color-subtitle: #555555; // 二级标题颜色
 $uni-font-size-subtitle:26px;
 $uni-color-paragraph: #3F536E; // 文章段落颜色
 $uni-font-size-paragraph:15px;
+
+// 基础样式
+$base-red: #cd1231;
+$base-white: #fff;
+$base-gray: #f9f9f9;
+$font-c-3: #333;
+$font-c-6: #666;
+$font-c-9: #999;
+
+$length-5: 10rpx;
+$length-8: 16rpx;
+$length-10: 20rpx;
+$length-13: 26rpx;
+$length-15: 30rpx;
+$length-20: 40rpx;
+$length-25: 50rpx;
+$length-30: 60rpx;
+
+$font-s-12: 24rpx;
+$font-s-13: 26rpx;
+$font-s-14: 28rpx;
+$font-s-15: 30rpx;
+$font-s-16: 32rpx;
+$font-s-18: 36rpx;
+
+// 自定义样式
+page {
+  background-color: #f9f9f9;
+}
+
+.page-container {
+  padding: 0 $length-15;
+}
+
+.van-button {
+  border-radius: 5px !important;
+}
